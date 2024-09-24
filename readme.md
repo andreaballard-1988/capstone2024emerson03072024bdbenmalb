@@ -12,4 +12,6 @@ curl -sS https://webi.sh/gh | sh
 gh auth login
 git push -u origin main
 
-test
+git add .
+git commit -m "updated files"
+git push
