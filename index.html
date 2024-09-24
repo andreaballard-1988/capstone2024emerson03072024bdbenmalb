@@ -1,72 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>Hello World!</title>
-
-    <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- The website JavaScript file -->
-    <script src="/script.js" defer></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
   </head>
   <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <h1 class="title">Hello World!</h1>
+    <main>
+      <title>Baton Rouge</title>
+      <header>
         <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
+          alt="welcome"
+          width="100%"
+          src="https://www.brla.gov/ImageRepository/Document?documentId=12681"
         />
-        <div class="instructions">
-          <h2>Using this project</h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out the code in the editor and open
-            the <span class="fileopener" data-file="TODO.md" data-line="0"
-              >TODO</span> for next steps!
-          </p>
-          <!--  🚧 TODO: ADD BUTTON HERE -->
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="gallery.html">GALLERY</a>
+          <a href="contact.html">CONTACT</a>
+        </nav>
+      </header>
+      <h1>Welcome to Baton Rouge</h1>
 
-          <!-- Once you've added the button from TODO.md, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
+      <h2 id="funfacts">Fun Facts</h2>
+      <div
+        class="card">
+      <img class="card-img-top"
+           src="https://assets.simpleviewinc.com/simpleview/image/upload/crm/batonrouge/StateCapitol_CrowdRiff2023_B1455E3D-BA12-7520-FFCB4FE53EC4BAB1-b1455df2a900d7d_b145609b-cb75-3746-ebd4ab608cf9567b.jpg"
+     />
+           <div class-"card-body"> 
+           <p class-"card-text">   
+        As the capital city of Louisiana, Baton Rouge is the heart and soul of
+        the state’s eclectic culture.
+             </p>
+      <p class="card-text">
+        With over 300 years of history, Baton Rouge has a colorful story to
+        tell, which can be tasted through our culinary offerings, seen through
+        the picturesque views of the Mississippi River and historical landmarks
+        and experienced through the vibrant arts and culture scene.
+      </p>
+      <p class="card-text">
+        In the “Red Stick,” every day is worth celebrating, even more so through
+        our festivals and events held throughout the year. So, sit back, relax,
+        and let us make the planning easy – we’ll be waiting to welcome you with
+        Southern hospitality and an authentic Louisiana experience!
+      </p>
         </div>
       </div>
-    </div>
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
-    </footer>
+      <h2 id="europeansettlement">European Settlement</h2>
+      <p>
+        French colonists established a trading post and military in 1721 at the
+        site of a Muscogee boundary marker called a bâton rouge, or "red stick".
+        The city's name comes from this marker.
+      </p>
+
+      <h2 id="spanishinfluence">Spanish Influence</h2>
+      <p>
+        In 1779, the Spanish defeated the English at Fort Butte and captured
+        Baton Rouge. During Spanish Colonial occupation, the city was part of
+        West Florida and a fort called Fort San Carlos was built on the river.
+      </p>
+
+      <p>
+        The Spanish allowed French settlers to maintain their language and
+        customs, but in 1766, the first Spanish colonial governor, Don Antonio
+        de Ulloa, imposed trade restrictions that angered the settlers. In 1768,
+        the settlers rebelled and forced de Ulloa out, but Spain retook the
+        colony in 1769.
+      </p>
+
+      <p>
+        In 1805, the Spanish Town District was founded, which is now the oldest
+        neighborhood in the city and has the oldest architecture.
+      </p>
+
+      <h2 id="civilwar">Civil War</h2>
+      <p>
+        Baton Rouge was under Union control for most of the Civil War, except
+        for a brief period in 1862.
+      </p>
+
+      <h2 id="othernotableevents">Other Events</h2>
+      <p>
+        In 1810, local settlers overthrew the Spanish and declared the area the
+        West Florida Republic. Baton Rouge was incorporated in 1817 and became
+        the state capital in 1849.
+      </p>
+
+      <p>
+        In 1846, the city replaced New Orleans as the state capital and
+        construction began on the Neo-Gothic capitol building, which is now a
+        National Historic Landmark. Baton Rouge was also the site of the first
+        major boycott of the South during the Civil Rights Movement, when
+        African Americans refused to ride segregated buses. The boycott sparked
+        a national conversation and led to other notable protests.
+      </p>
+    </main>
   </body>
+  <hr />
+  <footer>
+    Section Bookmarks:
+   <div>
+     
+    </div>
+    <nav>
+      <a href="#funfacts">Fun Facts</a><br />
+      <a href="#europeansettlement">European Settlement</a><br />
+      <a href="#spanishinfluence">Spanish Influence</a><br />
+      <a href="#civilwar">Civil War</a><br />
+      <a href="#othernotableevents">Other Events</a><br />
+    </nav>
+    <p>
+      Website created by Andrea Ballard
+      <i>COPYRIGHT 2024</i>
+    </p>
+  </footer>
 </html>
